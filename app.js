@@ -60,3 +60,35 @@ console.log([1, 2, 3, 4]);
  * 3. Нам не нужно определять тип данных при создании переменных
  * 4. Если мы хотим использовать статическую типизацию мы можем использовать TypeScript или Flow
  */
+
+
+//  переменные //
+// var, let, const
+var name = 'Bob';
+console.log(name);
+name = 'Den';
+console.log(name);
+
+var age;
+console.log(age);
+age = 30;
+console.log(age);
+
+var $name = 'Ivan';
+var _name = 'Bobik';
+
+var userAge = 30;
+var user_age = 52;
+console.log(user_age);
+var UserAge = 44;
+var userage = 22;
+
+
+var car;
+console.log(car);
+car = 'lada';
+// var car = 'mers';
+console.log(car);
+
+
+
