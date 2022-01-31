@@ -6,8 +6,6 @@
  * JSDoc комментарии
  */
 
-
-
 /**
  * Типы данных:
  * 1. Примитивные
@@ -52,7 +50,6 @@ console.table({ name: 'Bob', age: 44 });
 console.log([1, 2, 3, 4]);
 */
 
-
 /**
  * Особености:
  * 1. JS динамически типизированный язык
@@ -60,7 +57,6 @@ console.log([1, 2, 3, 4]);
  * 3. Нам не нужно определять тип данных при создании переменных
  * 4. Если мы хотим использовать статическую типизацию мы можем использовать TypeScript или Flow
  */
-
 
 /* переменные 
 // var, let, const
@@ -107,3 +103,48 @@ const user = {
 };
 user.age = 41;
  console.log(user); */
+
+// 8. преобразование типов
+
+let value;
+
+// Number to string
+value = String(10);
+value = String(10 + 40);
+value = (40).toString();
+
+// Boolean to String
+value = String(true);
+
+// Array to String
+value = String([1, 2, 3]);
+//Object to string
+value = String({ name: "Dodd" });
+
+value = 30 + "" + 30;
+value = 30 - "120";
+value = false + 20;
+
+//String to number
+value = Number("22");
+value = Number(true);
+value = Number(false);
+value = Number(null);
+value = Number("false");
+value = Number([1, 2, 3]);
+
+value = parseInt("200lkjnhlkj");
+value = parseFloat("200.2014lkjnhlkj");
+
+//Boolean
+value = Boolean("hello");
+value = Boolean("");
+value = Boolean(-100);
+value = Boolean(0);
+value = Boolean(undefined);
+value = Boolean(null);
+value = Boolean({});
+value = Boolean([]);
+
+console.log(value);
+console.log(typeof value);
