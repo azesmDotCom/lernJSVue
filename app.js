@@ -62,9 +62,9 @@ console.log([1, 2, 3, 4]);
  */
 
 
-//  переменные //
+/* переменные 
 // var, let, const
-var name = 'Bob';
+ var name = 'Bob';
 console.log(name);
 name = 'Den';
 console.log(name);
@@ -89,6 +89,21 @@ console.log(car);
 car = 'lada';
 // var car = 'mers';
 console.log(car);
+console.clear();
 
+//console.log(nickName);
+let nickName = 'dmgame';
+nickName = "dm";
+console.log(nickName);
 
+const firstName = 'Bobick';
+//firstName = "Bobi";
+//const lastName;
+console.log(firstName);
 
+const user = {
+    name: 'Dod',
+    age: 30
+};
+user.age = 41;
+ console.log(user); */
