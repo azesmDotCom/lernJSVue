@@ -207,7 +207,7 @@ console.log(+hw4First.toFixed(2));
 
 let hw4Second = Math.random() * 10 + 1;
 console.log(Math.floor(hw4Second));
-*/
+
 
 //String
 
@@ -237,3 +237,35 @@ value = str.replace('Bobick', 'Bob');
 
 
 console.log(value);
+*/
+
+// StringSecond
+
+const firstName = 'Fedor';
+const lastName = 'Dostoevskiy';
+const age = 50;
+
+let str;
+
+str = 'Hello? my name is ' + firstName + ' ' + lastName;
+
+str = '<ul>' +
+    '<li>First name: ' + firstName + '</li>' +
+    '<li>Last name: ' + lastName + '</li>' + 
+    '<li>Age: ' + age + '</li>' + 
+    '</ul>';
+
+//console.log(str);
+
+//ES6
+str = `
+ <ul>
+    <li>First name : ${firstName}</li>
+    <li>Last name : ${lastName}</li>
+    <li>Age : ${age}</li>
+    <li>Math.random : ${ Math.random()}</li>
+ </ul>
+`;
+
+
+document.body.innerHTML = str;
