@@ -185,7 +185,9 @@ value = Math.floor(Math.random() * arr.length);
 console.log(arr[value]);
 
 console.log(value);
-*/
+
+
+//homeworkNumbers
 let num3 = Math.PI;
 console.log( +num3.toFixed(2));
 
@@ -205,5 +207,33 @@ console.log(+hw4First.toFixed(2));
 
 let hw4Second = Math.random() * 10 + 1;
 console.log(Math.floor(hw4Second));
+*/
+
+//String
+
+const firstName = 'Bobick';
+const lastName = 'Joodyman';
+const age = 30;
+const str = 'Hello my name is Bobick';
+
+let value;
+value = firstName + lastName;
+value = firstName + ' ' + lastName;
+value += ' I am ' + age;
+
+value = firstName.length;
+value = firstName[5];
+value = lastName[lastName.length - 1];
+value = firstName[firstName.length - 1];
+
+value = firstName.toUpperCase();
+value = firstName.concat(' ', lastName);
+value = str.indexOf('!');
+value = str.includes('Bobick');
+
+value = str.slice(0, 5);
+
+value = str.replace('Bobick', 'Bob');
 
 
+console.log(value);
