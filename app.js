@@ -148,7 +148,7 @@ value = Boolean([]);
 
 console.log(value);
 console.log(typeof value);
-*/
+
 // Numbers
 
 const num1 = 10;
@@ -185,3 +185,25 @@ value = Math.floor(Math.random() * arr.length);
 console.log(arr[value]);
 
 console.log(value);
+*/
+let num3 = Math.PI;
+console.log( +num3.toFixed(2));
+
+let num1 = Math.min(15, 11, 16, 12, 51, 12, 13, 51);
+console.log(num1);
+let num2 = Math.max(15, 11, 16, 12, 51, 12, 13, 51);
+console.log(num2);
+
+console.log( parseInt('100$'));
+
+let value = 0.6 + 0.7;
+let summ2 = parseFloat(value.toFixed(1));
+console.log(summ2);
+
+let hw4First = Math.random();
+console.log(+hw4First.toFixed(2));
+
+let hw4Second = Math.random() * 10 + 1;
+console.log(Math.floor(hw4Second));
+
+
