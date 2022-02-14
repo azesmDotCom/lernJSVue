@@ -237,7 +237,7 @@ value = str.replace('Bobick', 'Bob');
 
 
 console.log(value);
-*/
+
 
 // StringSecond
 
@@ -269,3 +269,51 @@ str = `
 
 
 document.body.innerHTML = str;
+*/
+
+
+
+let string = 'some test string';
+
+let value;
+value = string.length;
+
+value = ( string.charAt(0) ); // 1
+
+
+
+value = string[0] + string[string.length - 1];
+//value = string[string.length - 1]; // 2
+console.log(value);
+value = string[0].toUpperCase() + string[string.length - 1].toUpperCase(); //2
+// 3
+value = string.indexOf('string');
+// 4
+value = string.indexOf(' ', 5);
+//5
+value =  string.slice(5, 9);
+//6
+value = string.substring(5, 9);
+//7
+value = string.slice(0, -6);
+
+
+//8
+
+const a = '20';
+const b = '16';
+
+string = a + b;
+
+string = console.log(string);
+console.log( isNaN(string));
+
+
+
+
+
+
+
+
+
+
