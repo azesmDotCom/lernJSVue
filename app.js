@@ -269,9 +269,9 @@ str = `
 
 
 document.body.innerHTML = str;
-*/
 
 
+homework
 
 let string = 'some test string';
 
@@ -307,9 +307,14 @@ string = a + b;
 
 string = console.log(string);
 console.log( isNaN(string));
+*/
 
+// 12. Object
 
-
+const user = {
+   firstName : 'Bob',
+   age: 30, 
+};
 
 
 
